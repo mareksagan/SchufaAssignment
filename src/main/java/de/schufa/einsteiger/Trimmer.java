@@ -35,7 +35,7 @@ public class Trimmer {
 				for (int j = 0; j < adresseList.size(); j++) {
 					if (addressObjects.containsKey(adresseList.get(j))) {
 						if (adresseList.get(j) == addressObjects.get(adresseList.get(j))) {
-							break;
+							continue;
 						} else if (adresseList.get(j) != addressObjects.get(adresseList.get(j))) {
 							adresseList.set(j, addressObjects.get(adresseList.get(j)));
 						}
