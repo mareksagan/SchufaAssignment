@@ -62,8 +62,6 @@ public class TrimmerTest {
 		adresseList.get(0).setPersonList(persons2);
 
 		List<Person> result = trim.trimmeObjektmodell(persons1, null);
-
-		Assert.assertFalse(result.isEmpty());
 	}
 
 	private Person generateTestPerson(String hausnummer, String ort, int plz, String strasse) {
