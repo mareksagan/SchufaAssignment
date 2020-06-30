@@ -46,4 +46,4 @@ Coding assignment for Schufa using a modified DFS algorithm
 | person     | person          | Person       |
 
 # Installation
-Run the unit test class **TrimmerTest.java** in *IntelliJ / Eclipse*. It covers most of the implemented features.
+Run the unit test class **TrimmerTest.java** in *IntelliJ IDEA / Eclipse*. It covers most of the implemented features.
