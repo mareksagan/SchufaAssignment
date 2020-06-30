@@ -9,7 +9,7 @@ Coding assignment for Schufa using a modified DFS algorithm
 * It's safe to assume that there would be no *Person* duplicates
 
 # Entities description
-1. Adresse
+1. **Adresse**
 
 | Attribute  | Translation     | Type         |
 | -----------| ----------------| ------------ |
@@ -19,7 +19,7 @@ Coding assignment for Schufa using a modified DFS algorithm
 | plz        | building number | int          |
 | strasse    | street name     | String       |
   
-2. Person
+2. **Person**
 
 | Attribute         | Translation         | Type             |
 | ------------------| --------------------| ---------------- |
@@ -29,7 +29,7 @@ Coding assignment for Schufa using a modified DFS algorithm
 | namensinformation | name info           | Namesinformation |
 | vertragList       | list of contracts   | List<Vertrag>    |
 
-3. Namensinformation
+3. **Namensinformation**
 
 | Attribute  | Translation     | Type         |
 | -----------| ----------------| ------------ |
@@ -37,7 +37,7 @@ Coding assignment for Schufa using a modified DFS algorithm
 | titel      | title           | String       |
 | vorname    | first name      | String       |
 
-4. Vertrag
+4. **Vertrag**
 
 | Attribute  | Translation     | Type         |
 | -----------| ----------------| ------------ |
