@@ -1,5 +1,5 @@
 # SchufaAssignment
-Coding assignment for Schufa using a modified DFS algorithm 
+Coding assignment for Schufa using DFS algorithm 
 
 # Requirements
 * A given application experiences issues with garbage collection since there are many redundant instances of the *Adresse* entity
